@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+. $ZENHOME/bin/zenfunctions
+
+PRGHOME=$ZENHOME/ZenPacks/ZenPacks.SteelHouseLabs.ZenossForwarder-1.0.0-py2.7/ZenPacks/SteelHouseLabs/ZenossForwarder
+PRGNAME=zenforwarder.py
+CFGFILE=$CFGDIR/zenforwarder.conf
+
+generic "$@"
