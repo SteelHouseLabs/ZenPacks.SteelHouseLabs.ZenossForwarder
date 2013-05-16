@@ -38,7 +38,8 @@ Usage
 See the Zenoss Service Dynamics Administration Guide for more information about
 triggers and notifications. Any issues detected during the run of the
 notification will result in an event sent to the event console as well as a
-message in the ``zenactiond.log`` file.
+message in the ``zenactiond.log`` file. The ``zenossforwarder.log`` file will
+contain a s log of streamed messages.
 
 
 Select the Event Forwarder Action
