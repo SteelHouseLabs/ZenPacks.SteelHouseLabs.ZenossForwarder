@@ -92,10 +92,13 @@ Configuration
 
 $ZENHOME/etc/global.conf
 
-zenforwarderDestinationUrl - Target Zenoss instance. Example: http://10.0.0.2:8080
-zenuser - Target Zenoss instance user who can write to JSON
-zenpass - Target Zenoss instance user password who can write to JSON
-
+=============================  ==========================================================
+Parameter                      Description
+=============================  ==========================================================
+zenforwarderDestinationUrl     Target Zenoss instance. Example: http://10.0.0.2:8080
+zenuser                        Target Zenoss instance user who can write to JSON
+zenpass                        Target Zenoss instance user password who can write to JSON
+=============================  ==========================================================
 
 Troubleshooting
 -------------------------------------------------------------------------------
