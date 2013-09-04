@@ -213,8 +213,9 @@ class ZEFTask(BaseTask):
 
 
     def passEvent(self, evtBody):
+        sevStrings={5:'Critical', 4:'Error', 3:'Warning', 2:'Info', 0:'Clear', 1:'Debug'}
         evt = eval(evtBody)
-        self.jsonAPI.createEvent(device=str(evt['element_title']), summary=str(evt['summary']), evclass=str(evt['event_class']), severity='Info')
+        self.jsonAPI.createEvent(device=str(evt['element_title']), summary=str(evt['summary']), evclass=str(evt['event_class']), severity=str(evt[evString[int('severity')]]))
 
 
     def doTask(self):
